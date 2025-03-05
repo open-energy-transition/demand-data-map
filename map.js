@@ -68,7 +68,7 @@ const countrySources = {
     "Brazil": "https://www.ons.org.br/",
     "Chile": "https://www.coordinador.cl/",
     "Australia": "https://www.aemo.com.au/",
-    "New Zealand": "https://www.transpower.co.nz/",
+    "New Zealand": "https://www.emi.ea.govt.nz/Wholesale/Reports/W_GD_C?DateFrom=20250212&DateTo=20250212&RegionType=NZ&_rsdr=D1&_si=_dr_RegionType|NZ,_dr__rsdr|L364D,_dr_DateFrom|20240213,_dr_DateTo|20250212,v|4",
     "Kenya": "https://www.kplc.co.ke/",
     "Saudi Arabia": "https://www.se.com.sa/",
     "South Korea": "https://www.kpx.or.kr/",
