@@ -27,6 +27,11 @@ const countryColors = {
     "Sri Lanka": "darkred", "Turkey": "maroon"
 };
 
+// Function to generate a country-specific Wikipedia link
+function getCountryLink(countryName) {
+    return `https://en.wikipedia.org/wiki/${countryName.replace(/\s+/g, '_')}`;
+}
+
 // Add country shapes
 fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json')
     .then(response => response.json())
@@ -42,9 +47,10 @@ fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.g
             },
             onEachFeature: function (feature, layer) {
                 const countryName = feature.properties.name;
-                if (countryColors[countryName]) {
-                    layer.bindPopup(`<b>${countryName}</b>`);
-                }
+                const countryLink = getCountryLink(countryName);
+                
+                // Create popup with clickable link
+                layer.bindPopup(`<b>${countryName}</b><br><a href="${countryLink}" target="_blank">More Info</a>`);
             }
         }).addTo(map);
     });
