@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demand Data Map</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Rotating 3D Globe</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        #globe-container { width: 100vw; height: 100vh; }
+        #info-box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Global Demand Data Availability</h1>
-    <div id="map"></div>
+    <div id="globe-container"></div>
+    <div id="info-box"></div>
 
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="map.js"></script>
+    <script src="https://unpkg.com/three"></script>
+    <script src="https://unpkg.com/globe.gl"></script>
+    <script src="script.js"></script>
 </body>
 </html>
