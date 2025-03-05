@@ -1,6 +1,58 @@
 {
-    "United States": { "lat": 37.0902, "lon": -95.7129, "source": "Source A" },
-    "India": { "lat": 20.5937, "lon": 78.9629, "source": "Source B" },
-    "Germany": { "lat": 51.1657, "lon": 10.4515, "source": "Source C" },
-    "Brazil": { "lat": -14.2350, "lon": -51.9253, "source": "Source D" }
+    "Europe": {
+        "Austria": "Source A",
+        "Belgium": "Source B",
+        "Bosnia and Herzegovina": "Source C",
+        "Bulgaria": "Source D",
+        "Croazia": "Source E",
+        "Cyprus": "Source F",
+        "Czech Republic": "Source G",
+        "Denmark": "Source H",
+        "Estonia": "Source I",
+        "Finland": "Source J",
+        "France": "Source K",
+        "Germany": "Source L",
+        "Greece": "Source M",
+        "Hungary": "Source N",
+        "Iceland": "Source O",
+        "Ireland": "Source P",
+        "Italy": "Source Q",
+        "Latvia": "Source R",
+        "Lithuania": "Source S",
+        "Macedonia": "Source T",
+        "Netherlands": "Source U",
+        "Norway": "Source V",
+        "Poland": "Source W",
+        "Portugal": "Source X",
+        "Romania": "Source Y",
+        "Serbia": "Source Z",
+        "Slovakia": "Source AA",
+        "Slovenia": "Source AB",
+        "Spain": "Source AC",
+        "Sweden": "Source AD",
+        "Switzerland": "Source AE",
+        "United Kingdom": "Source AF"
+    },
+    "North America": {
+        "Canada": "Source AG",
+        "Mexico": "Source AH"
+    },
+    "South America": {
+        "Argentina": "Source AI",
+        "Brazil": "Source AJ",
+        "Chile": "Source AK"
+    },
+    "Oceania": {
+        "Australia": "Source AL",
+        "New Zealand": "Source AM"
+    },
+    "Africa": {
+        "Kenya": "Source AN"
+    },
+    "Asia": {
+        "Saudi Arabia": "Source AO",
+        "South Korea": "Source AP",
+        "Sri Lanka": "Source AQ",
+        "Turkey": "Source AR"
+    }
 }
