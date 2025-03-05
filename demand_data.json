@@ -1,8 +1,30 @@
-{
-    "countries": {
-        "France": "https://example.com/france-demand",
-        "Brazil": "https://example.com/brazil-demand",
-        "India": "https://example.com/india-demand",
-        "Australia": "https://aemo.com.au/en"
-    }
+import json
+
+# Sample demand data mapping (Country ISO Code -> URL)
+demand_data = {
+    "US": "https://example.com/usa-demand",
+    "IN": "https://example.com/india-demand",
+    "DE": "https://example.com/germany-demand"
 }
+
+# Colors based on demand levels (example logic)
+color_mapping = {
+    "US": "#ff5733",  # Orange
+    "IN": "#33ff57",  # Green
+    "DE": "#3357ff"   # Blue
+}
+
+# Load a world geojson template
+with open("world_countries.json", "r") as f:
+    world_geojson = json.load(f)
+
+# Modify the geojson with color and URL
+for feature in world_geojson["features"]:
+    iso_code = feature["properties"]["ISO_A2"]  # Country code
+    if iso_code in demand_data:
+        feature["properties"]["demand_url"] = demand_data[iso_code]
+        feature["properties"]["fillColor"] = color_mapping.get(iso_code, "#cccccc")  # Default color
+
+# Save modified geojson
+with open("demand_data_map.geojson", "w") as f:
+    json.dump(world_geojson, f)
