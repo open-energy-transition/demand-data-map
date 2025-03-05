@@ -1,0 +1,6 @@
+{
+    "United States": { "lat": 37.0902, "lon": -95.7129, "source": "Source A" },
+    "India": { "lat": 20.5937, "lon": 78.9629, "source": "Source B" },
+    "Germany": { "lat": 51.1657, "lon": 10.4515, "source": "Source C" },
+    "Brazil": { "lat": -14.2350, "lon": -51.9253, "source": "Source D" }
+}
