@@ -43,8 +43,8 @@
         "Chile": "Source AK"
     },
     "Oceania": {
-        "Australia": "Source AL",
-        "New Zealand": "Source AM"
+        "Australia": "https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data",
+        "New Zealand": "https://www.emi.ea.govt.nz/Wholesale/Reports/W_GD_C?DateFrom=20250212&DateTo=20250212&RegionType=NZ&_rsdr=D1&_si=_dr_RegionType|NZ,_dr__rsdr|L364D,_dr_DateFrom|20240213,_dr_DateTo|20250212,v|4"
     },
     "Africa": {
         "Kenya": "Source AN"
@@ -52,7 +52,7 @@
     "Asia": {
         "Saudi Arabia": "Source AO",
         "South Korea": "Source AP",
-        "Sri Lanka": "Source AQ",
-        "Turkey": "Source AR"
+        "Sri Lanka": "https://gendata.pucsl.gov.lk/generation-profile",
+        "Turkey": "https://www.kaggle.com/datasets/dharanikra/electrical-power-demand-in-turkey"
     }
 }
