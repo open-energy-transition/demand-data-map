@@ -40,16 +40,8 @@ const countryData = {
     "Sweden": { "color": "#33CCFF", "link": "https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTY&atch=false&dateTime.dateTime=14.03.2024+00:00|CET|DAY&biddingZone.values=CTY|10YSE-1--------K!CTY|10YSE-1--------K&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2) "},
     "Switzerland": { "color": "#CC33FF", "link": "https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTY&atch=false&dateTime.dateTime=14.03.2024+00:00|CET|DAY&biddingZone.values=CTY|10YCH-SWISSGRIDZ!CTY|10YCH-SWISSGRIDZ&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2) "},
     "United Kingdom": { "color": "#FFCC33", "link": "https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTY&atch=false&dateTime.dateTime=14.03.2024+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A92E!CTY|10Y1001A1001A92E&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2) "},
-    "Canada": { "color": "#9933CC", "link": " "},
-    "Mexico": { "color": "#33CC99", "link": "" },
-    "Argentina": { "color": "#CC9933", "link": "" },
-    "Brazil": { "color": "#33FFCC", "link": "" },
-    "Chile": { "color": "#FFCC99", "link": "" },    
     "Australia": { "color": "#99FFCC", "link": "https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data" },
     "New Zealand": { "color": "#CC99FF", "link": "https://www.emi.ea.govt.nz/Wholesale/Reports/W_GD_C?DateFrom=20250212&DateTo=20250212&RegionType=NZ&_rsdr=D1&_si=_dr_RegionType|NZ,_dr__rsdr|L364D,_dr_DateFrom|20240213,_dr_DateTo|20250212,v|4" },
-    "Kenya": { "color": "#FF99CC", "link": "" },
-    "Saudi Arabia": { "color": "#99CCFF", "" },
-    "South Korea": { "color": "#CCFF99", "" },
     "Sri Lanka": { "color": "#FF6699", "link": "https://gendata.pucsl.gov.lk/generation-profile" },
     "Turkey": { "color": "#6699FF", "link": "https://www.kaggle.com/datasets/dharanikra/electrical-power-demand-in-turkey" }
 };
